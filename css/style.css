@@ -1,0 +1,586 @@
+@import url("https://fonts.cdnfonts.com/css/questrial");
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: "Questrial", sans-serif; */
+}
+
+.skip-to-content-link {
+    position: absolute;
+    left: 50%;
+    transform: translateY(-100%);
+}
+
+.skip-to-content-link {
+    background: #e77e23;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+    transform: translateY(0%);
+}
+
+.header {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-icon {
+    width: fit-content;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-icon img {
+    width: 50px;
+    margin: 0px auto;
+}
+
+.nav-icon h3 {
+    margin: 0px auto;
+}
+
+.nav-links {
+    height: calc(50vh - 30px);
+    background-color: rgba(0, 0, 0, 0.539);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    display: none;
+    padding-top: 30px;
+    transition: all 9s ease-in-out;
+}
+
+a.nav-link {
+   height: fit-content;
+   list-style-type: none;
+   text-decoration: none;
+   color: white;
+   width: 200px;
+}
+
+.nav-links li {
+   height: 35px;
+   display: flex;
+   align-items: center;
+   padding-left: 30px;
+   transition: all 0.3s ease-in-out;
+}
+
+.nav-link li:hover {
+    background-color: rgba(0, 0, 0, 0.819);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-btn {
+    cursor: pointer;
+    color: white;
+}
+
+.nav-btn a {
+    color: white;
+    width: 100px;
+    text-decoration: none;
+    background-image: url(../images/logo.png);
+    padding: 6px 20px;
+    position: relative;
+    top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-btn a:hover {
+    background-color: rgb(0, 0, 84);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-close {
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top: 100px;
+    right: 95px;
+    display: none;
+    padding: 3px 5px;
+}
+
+.menu-close:hover {
+    background-color: rgb(255, 255, 255);
+    color: deepskyblue;
+}
+
+#nav-dropdown {
+   border: none;
+   border-radius: 5px;
+   background-color: rgba(198, 146, 45, 1,);
+   color: magenta;
+   padding: 5px;
+}
+
+.faco {
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    color: white;
+    position: absolute;
+}
+
+#create {
+    background-color:brown;
+    color: white; 
+}
+
+#create img {
+    width: 80%;
+   height: 50vh;
+   margin-top: 10%;
+   margin-left: 10%;
+   text-align: center;
+}
+
+.float h2 {
+    color: white;
+}
+
+.float h2, p {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.create-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.create-2 button {
+    background-color: rgb(59, 51, 119);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.create-2 button:active {
+    color: black;
+}
+
+#why {
+    display: block;
+}
+
+.miss h2 {
+    text-align: center;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+
+.area {
+    background-color: brown;
+    text-align: center;
+}
+
+.admin {
+    color: white;
+}
+
+.admin p {
+    text-align: left;
+    padding-inline-start: 10px;
+    margin-block-start: revert;
+}
+
+.sub p{
+    text-align: left;
+    padding-inline-start: 10px;
+    margin-block-start: revert;
+}
+
+.sub {
+    border: 1px solid white;
+    background-color: white;
+    padding-block-start: 10px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    padding: 15px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+span:active {
+    background-color: black;
+}
+
+span a:hover {
+    color: white;
+}
+
+.sub li {
+    list-style-type: none;
+}
+
+.sub a {
+    text-decoration: none;
+    color: red;
+}
+
+.apply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.apply button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.apply button:active {
+    color: black;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+}
+
+#footer li {
+    list-style-type: none;
+}
+
+#footer {
+    background-color: #24262b;
+    padding: 50px 15px;
+}
+
+.footer-row h4 {
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color: red;
+}
+
+.footer-row h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-row ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-row ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-row ul li a:hover {
+    color: #ffff;
+    padding-left: 8px;
+} 
+
+.footer-row .social-links i {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #ffff;
+    transition: all 0.5s ease;
+}
+
+.footer-row .social-links a:hover {
+    color: #24262b;
+    background-color: #ffff;
+}
+
+
+@media screen and (min-width: 420px) {
+}
+
+@media screen and (min-width: 518px) {
+}
+
+@media screen and (min-width: 769px) {
+    .header {
+        height: 90vh;
+    }
+
+    .navbar {
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .nav-icon {
+        width: 15%;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .nav-icon img {
+        width: 50px;
+        margin: 0px auto;
+    }
+
+    .nav-icon h3 {
+        margin: 0px auto;
+    }
+
+    .nav-links {
+        background-color: rgba(0, 0, 0, 0);
+        position: initial;
+        width: 75%;
+        display: flex;
+        padding: 0px;
+        height: fit-content;
+        justify-content: space-between;
+    }
+
+    a.nav-link {
+        height: fit-content;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        width: 15%;
+    }
+
+    .nav-links li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1px 1px;
+    }
+
+    .nav-link li:hover {
+        background-color: rgba(0, 0, 0, 0.493);
+    }
+
+    .menu-btn,
+    #menu-btn{
+        display: none;
+    }
+
+    .nav-btn a {
+        color: white;
+        text-decoration: none;
+        background-image: url(../images/logo.png);
+        padding: 10px 25px;
+        position: initial;
+        width: 10%;
+    }
+
+    .nav-btn a:hover {
+        background-color: rgb(0, 0, 84);
+    }
+
+    .menu-close,
+    #menu-close{
+        display: none;
+    }
+
+    .admin p {
+        text-align: center;
+    }
+}
+    
+    
+@media screen and (min-width: 420px) {
+}
+
+@media screen and (min-width: 518px) {
+}
+
+@media screen and (min-width: 769px) {
+    .faco {
+        margin-top: 40px;
+        left: 30%;
+        align-items: left;
+    }
+
+
+    #create {
+        background-color: brown;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+     #create img {
+         height: 75vh; 
+         width: 90vh;
+        margin-right: 30px;
+        margin: 0px auto;
+    }
+    
+    .float h2 {
+        color: black;
+    }
+
+    .float h2, p {
+        text-align: center;
+        margin: 10px;
+    } 
+
+    .create-2 {
+        position: relative;
+        top: 40px;
+        right: 35%;
+    }
+
+    .create-2 button {
+        border: none;
+        color: white;
+        background-color: rgb(59, 51, 119);
+        border-radius: 10px;
+        padding: 5px 30px;
+        margin-top: 240px; 
+    }
+
+    .sub p{
+        text-align: center;
+    }
+     
+}  
+
+
+@media screen and (min-width: 769px) {
+    .create-2 {
+        position: relative;
+        top: 40px;
+        right: 25%;
+    }
+
+    .create-2 button {
+        border: none;
+        color: white;
+        background-color: rgb(59, 51, 119);
+        border-radius: 10px;
+        padding: 5px 30px;
+        position: absolute;
+    }
+}
+
+
+@media screen and (min-width: 420px) {
+}
+
+@media screen and (min-width: 518px) {
+}
+
+@media screen and (min-width: 769px) {
+
+    #why {
+        display: block;
+    }
+    
+    
+    .miss h2 {
+        text-align: center;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    th {
+        text-decoration: underline;
+        text-decoration-color: orangered;
+    }
+
+    td {
+        text-align: center;
+   }
+}
+   
+
+@media screen and (min-width: 420px) {
+}
+
+@media screen and (min-width: 518px) {
+}
+
+@media screen and (min-width: 769px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #footer {
+        padding: 70px 0;
+    }
+
+   
+}
+
+
+
+

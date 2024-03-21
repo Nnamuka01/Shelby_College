@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHELBY</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+	<!-- FOR THE MENUBAR ANIMATION -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+    <a class="skip-to-content-link" href="#main">Skip to content</a>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-icon">
+                <img src="images/logo.png" alt="" class="icon">
+                <h3>SHELBY COLLEGE</h3>
+            </a>
+
+            <ul class="nav-links animate_animated" id="nav-links">
+                <a class="nav-link" href="#create"><li>Home</li></a>
+                <a class="nav-link" href="#why"><li>About</li></a>
+                <a class="nav-link" href="#footer"><li>Contact Us</li></a>
+                <li>
+                     <select id="nav-dropdown">
+                        <option value="#">Departments</option>
+                     </select>
+                </li>
+                <li>
+                    <div class="nav-btn">
+                        <a href="#enrol">Enrol Now</a>
+                    </div>
+
+                    <i class="fa-solid fa-xmark menu-close" id="menu-close" onclick="closeMobileNav()"></i>
+                </li>     
+            </ul>
+
+            <i class="fa-solid fa-bars menu-btn" id="menu-btn" onclick="showMobileNav()"></i>
+                
+            <div class="faco">
+                <h3><i>Our Facilities are truly Exceptional</i></h3>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main id="main">
+    <div id="create">
+        <img src="images/second.jpg" alt="picture of a book">
+        <div class="float">
+           
+        <h2>Welcome To Shelby Business College</h2>
+        <p>Shelby Business College is one of the most famous and highly-rated business schools in the world. 
+            <br>
+            <br> 
+            It is principally known for its MBA program, which consistently ranks as one of the best. 
+            <br>
+            <br> 
+            The school is consistently ranked as one of the best business schools in the world. U.S. 
+            <br>
+            <br>
+             News & World Report ranks Shelby Business College as the fifth best business school and the Financial Times rates its MBA program as no. 4 in the world.</p>
+    </div>
+         <div class="create-2">
+              <button>Learn More</button>
+         </div>
+    </div>
+   
+    <div id="why" >
+        <div class="miss">
+            <h2>Our Mission</h2>
+            <p>We educate leaders who make a difference in the world. <br>           
+            Each element of the School's mission—to educate leaders who make a difference in the world—is infused with meaning.</p>
+        </div>
+        <br>
+        <table>  
+            <tr>
+                <th>"Leaders"</th>
+                
+                <td>When we talk about leaders, we mean people who embody a certain type of competence and character—both the competence that comes from the general
+                manager's perspective the School cultivates and the character to understand the difference between being self-interested and self-centered.</td>
+
+                <th>"Make a Difference"</th>
+                 
+                <td>Making a difference means people who create real value for society, and who create value before claiming value.</td>
+
+                <th>In the World</th>
+                
+                <td>it involves embracing the view that the world desperately needs more leaders to address its most urgent and challenging problems, 
+                and that virtually none of these problems can be addressed without business leaders playing a vital role.</td>
+            </tr>  
+        </table>
+    </div>
+     <section class="course">
+        <div class="area" id="enrol">
+            <div class="admin">
+                <h3>2024/2025 Admission Form is now on sale.....</h3>
+                <p><i>Admission opens to all classes.....</i></p>
+            </div>
+            <div class="sub">
+                <p>Choose a subject area:</p>
+                <span class="first"><li><a id="foot">Business Essentials</a></li></span>
+                <span><li><a id="foot">Marketing</a></li></span>                
+                <span><li><a id="foot">Entrepreneurship & Innovation</a></li></span>
+                <span><li><a id="foot">Leadership & Management</a></li></span>
+                <span><li><a id="foot">Finance & Accounting</a></li></span>
+                <div class="apply">
+                    <button>Apply Now</button>
+                 </div>
+            </div>
+        </div>
+     </section>
+
+    <footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-row">
+                <h4>Subject area</h4>
+                    <ul>
+                        <li><a href="#foot" class="az">Business Essentials</a></li>
+                        <li><a href="#foot" class="az">Marketing</a></li>
+                        <li><a href="#foot" class="az">Entrepreneurship & Innovation</a></li>
+                        <li><a href="#foot" class="az">Leadership & Management</a></li>
+                        <li><a href="#foot" class="az">Finance & Accounting</a></li>
+                    </ul>
+            </div>
+            <div class="footer-row">
+                <h4>Quick Link</h4>
+                    <ul>
+                        <li><a href="#create">Home</a></li>
+                        <li><a href="#why">About</a></li>
+                    </ul>
+            </div>
+            <div class="footer-row">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a><i class="fab fa-facebook-f"></i></a>
+                    <a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-instagram"></i></a>
+                    <a><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a88b71ef58.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    </main>
+</body>
+</html>
